@@ -1,0 +1,77 @@
+body {
+    background-color:#caf0f0;
+    font-size: 16px;
+    color: #333333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:justify;
+    line-height: 1.5;
+}
+
+ul {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    background-color: #235794; 
+    padding: 10px 0;
+    margin: 0;
+    border: 1px solid #11336D; /* Linha inferior do menu para deixar bem separado do conteÃºdo*/
+}
+
+ul li a {
+    text-decoration: none; /* RemoÃ§Ã£o do sublinhado nos links */
+    color: #FFFF99;
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    /*transition: background-color 0.3s; /* TransiÃ§Ã£o suave da cor de fundo */
+}
+
+ul li a:hover {
+    background-color: whitesmoke; /* Um destaque ao passar o mouse sobre o menu */
+}
+
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+img{
+    float:left;
+    margin-right: 20px;
+}
+
+form {
+    color: #FFFF99;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #000080;
+}
+
+form>div>input,
+textarea {
+    width: 100%;
+}
+
+form>div>button {
+    margin-top: 10px;
+    background-color: #FFFF99;
+    border: 0;
+    border-radius: 8px;
+    color: goldenrod;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.obrigatorio{
+    color: red;
+}
+   
+body{
+    background-image: url("blue_gradient.jpg");
+    background-size: cover;
+}
